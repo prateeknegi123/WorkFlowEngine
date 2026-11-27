@@ -1,0 +1,74 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build output
+build/
+*/build/
+out/
+*/out/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# Android
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Generated files
+generated/
+**/generated/
+
+# Compose / KMP generated
+composeApp/build/
+shared/build/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS / editor
+.vscode/
+*.swp
+*.swo
+
+# Secrets / local configuration
+.env
+.env.*
+local.properties
+
+# Test / coverage
+*.exec
+*.hprof
+coverage/
